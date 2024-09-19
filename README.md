@@ -36,33 +36,33 @@ You will need `node` and `npm` installed globally on your machine.
 ### 1. Installation
 In the project root folder, run:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 2. Prerequisites to Run
 - Connect a physical Android/iOS device in USB debugging mode, **OR** launch an emulator using AVD Manager (Android Studio).
 - If needed, reset or clear the React Native packager’s cache:
 
-\`\`\`bash
+```bash
 npm start -- --reset-cache
 # or
 yarn start -- --reset-cache
-\`\`\`
+```
 
 ### 3. To Start the Android Application
 - **For Android users**: Connect your Android phone in USB Debugging Mode, then run:
 
-\`\`\`bash
+```bash
 npx react-native start
-\`\`\`
+```
 Press `a` or `i` for respective OS.
 
 - **For iOS users**: Run:
 
-\`\`\`bash
+```bash
 npx react-native run-ios
-\`\`\`
+```
 
 ### 4. To Visit the App
 The app will launch on your Android/iOS device.
@@ -72,20 +72,20 @@ The app will launch on your Android/iOS device.
 - **Unit tests**:  
   Run:
 
-\`\`\`bash
+```bash
 npm run mocha
-\`\`\`
+```
 
 - **Unit tests with coverage**:  
   Run:
 
-\`\`\`bash
+```bash
 npm run coverage
-\`\`\`
+```
 
 - **Linter**:  
   Run:
 
-\`\`\`bash
+```bash
 npm run lint
-\`\`\`
+```
